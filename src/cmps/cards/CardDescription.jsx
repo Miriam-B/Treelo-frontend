@@ -56,9 +56,9 @@ export class CardDescription extends Component {
         return (
             <div className="description-active-box flex column">
                 <textarea value={this.state.description} autoFocus onChange={this.onChange}
-                    onBlur={this.onSave} placeholder="Enter a more detailed description here..."
+                    onBlur={this.onSave} placeholder="Add a more detailed description…"
                     className="modal-desc-textarea" />
-                <button onClick={this.onSave}>Save</button>
+                <button className="save-description-btn" onClick={this.onSave}>Save</button>
             </div>
         )
     }

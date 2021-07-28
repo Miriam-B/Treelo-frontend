@@ -8,7 +8,6 @@ import { onLogout } from './store/actions/user-actions.js'
 import { boardService } from './services/board-service.js'
 import { updatePosition, resetFilterBy, addActivity } from './store/actions/board-actions.js';
 
-// import { boardService } from './store/boardService.js'
 // import { createMuiTheme, ThemeProvider, } from '@material-ui/core'
 
 class _App extends Component {

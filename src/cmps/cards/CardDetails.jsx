@@ -342,7 +342,7 @@ class _CardDetails extends Component {
                         <div className="card-modal-title flex justify-space-between">
                             <div className="card-details-title flex">
                                 <SubtitlesIcon />
-                                <div>
+                                <div className="basic-card-info">
                                     <CardTitle titleTxt={this.state.card.title} onUpdate={this.onUpdateTitle} />
                                     <div className="in-list">
                                     <span className="group-name">in list <u>{this.state.groupName}</u></span>
@@ -397,7 +397,7 @@ class _CardDetails extends Component {
                             <section className="flex justify-space-between">
                                 <div className="flex modal-activity-title">
                                     <ListIcon />
-                                    <h3>Activity</h3>
+                                    <h3 className="activity-txt">Activity</h3>
                                 </div>
                                 <button onClick={this.toggleCommentsOnly}>{(this.state.commentsOnly) ? 'Show Details' : 'Hide Details'}</button>
                             </section>
